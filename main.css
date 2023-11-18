@@ -1,0 +1,105 @@
+@import url('https://fonts.googleapis.com/css2?family=Archivo+Black&family=Comfortaa:wght@500&family=Poppins:ital,wght@0,400;0,600;1,700&family=Roboto:wght@400;500;700&family=Seymour+One&display=swap');
+
+body {
+    display: flex;
+    text-align: center;
+    font-family: 'Roboto', sans-serif;
+    justify-content: center;
+    background-color: black;
+    background-image: url("https://lztcdn.com/files/310336b3-c10e-4ad1-8fdf-0bbe73835ca1.webp");
+    flex-direction: column;
+    
+}
+
+h1, p {
+    font-size: 65px;
+    color: whitesmoke;
+    font-family: 'Roboto', sans-serif;
+
+    
+
+}
+
+.block {
+    color: wheat;
+    width: 500px;
+    margin-left: 425px;
+    height: 65px;
+    background: rgba(0, 0, 0, 0.35);
+    box-shadow: 0 8px 32px 0 rgba(196, 223, 40, 0.37);
+    backdrop-filter: blur( 7px );
+    -webkit-backdrop-filter: blur( 7px );
+    border-radius: 10px;
+    border: 1px solid rgba( 255, 255, 255, 0.18 );
+    -webkit-transition: all 0.3s;
+    -moz-transition: all 0.3s;
+    transition: all 0.3s;
+}
+
+.block1 {
+    color: wheat;
+    font-size: 50px;
+    width: 1000px;
+    margin-left: 150px;
+    height: 65px;
+    background: rgba(0, 0, 0, 0.35);
+    box-shadow: 0 8px 32px 0 rgba(196, 223, 40, 0.37);
+    backdrop-filter: blur( 7px );
+    -webkit-backdrop-filter: blur( 7px );
+    border-radius: 10px;
+    border: 1px solid rgba( 255, 255, 255, 0.18 );
+    -webkit-transition: all 0.3s;
+    -moz-transition: all 0.3s;
+    transition: all 0.3s;
+}
+
+button {
+    border-radius: 10px;
+    color: wheat;
+    font-family: Arial, Helvetica, sans-serif;                                           
+    color: white;
+    width: 250px;
+    height: 100px;
+    font-size: 25px;
+    font-family: Arial, Helvetica, sans-serif;
+    background: rgba(0, 0, 0, 0.35);
+    box-shadow: 0 8px 32px 0 rgba(196, 223, 40, 0.37);
+    backdrop-filter: blur( 7px );
+    -webkit-backdrop-filter: blur( 7px );
+    border-radius: 10px;
+    border: 1px solid rgba( 255, 255, 255, 0.18 );
+    -webkit-transition: all 0.3s;
+    -moz-transition: all 0.3s;
+    transition: all 0.3s;
+    
+}
+
+a {
+    text-decoration: none;
+    color: white;
+}
+
+button:hover {
+    background:rgba(180, 223, 40, 0.37);
+    -webkit-transition: all 0.3s;
+    -moz-transition: all 0.3s;
+    transition: all 0.3s;
+}
+
+::-webkit-scrollbar {
+    width: 0.5em; /* You can adjust the width if needed */
+  }
+
+  ::-webkit-scrollbar-thumb {
+    background-color: transparent; /* Make the thumb transparent */
+  }
+  
+  /* Hide scrollbar for Firefox */
+  html {
+    scrollbar-width: thin;
+  }
+
+
+  body {
+    scrollbar-color: transparent transparent; /* Make the thumb transparent */
+  }
