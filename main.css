@@ -1,23 +1,18 @@
 @import url('https://fonts.googleapis.com/css2?family=Archivo+Black&family=Comfortaa:wght@500&family=Poppins:ital,wght@0,400;0,600;1,700&family=Roboto:wght@400;500;700&family=Seymour+One&display=swap');
-html,
-body {
-    
+
+
+body { 
     font-family: 'Roboto', sans-serif;
-    
     background-color: black;
     background-image: url("https://lztcdn.com/files/310336b3-c10e-4ad1-8fdf-0bbe73835ca1.webp");
-    
-    
-}
-
-* {
     justify-content: center;
-    display: flex;
     align-items: center;
     display: flex;
     text-align: center;
     flex-direction: column;
 }
+
+
 
 h1, p {
     font-size: 65px;
